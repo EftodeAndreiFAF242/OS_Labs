@@ -11,6 +11,7 @@ This page explains everything that was done in the lab, step by step: every comm
 | `Lab3_EftodeAndrei_FAF-242.docx` | The report: title page, 39 screenshots, the answers to every Observe box and to Q1-Q8 |
 | `oneliners.sh` | The eight questions of Part 4 (and the bonus), each answered with one command line |
 | `report.sh` | The script of Part 5, with the TODO loop written |
+| `full_explanations.md` | The slow version of this page: every command and every line of the two scripts taken apart piece by piece, with worked examples and a self-test |
 | `screenshots/` | The terminal screenshots shown on this page (`fig-1-1.png` is Figure 1.1, and so on) |
 
 ## How to run it
