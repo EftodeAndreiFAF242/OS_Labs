@@ -3,7 +3,7 @@
 - **Student:** Eftode Andrei, group FAF-242
 - **Course:** Operating Systems, FCIM / FAF, Technical University of Moldova, 2026-2027
 
-Each lab has its own folder. Every folder holds the Word report, the files the lab asks for, and a `README.md` that explains what was done.
+Each lab has its own folder. Every folder holds the Word report, the files the lab asks for, and a `README.md` that explains what was done. Labs 3 and 4 also have a `full_explanations.md`, which takes every command and every line of code apart, piece by piece.
 
 | Folder | Lab | Topic | What is inside |
 |---|---|---|---|

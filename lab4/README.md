@@ -13,6 +13,7 @@ This page explains everything that was done in the lab, step by step: every comm
 | `args.c` | A program for xv6 that prints the arguments it receives. In xv6 it lives in `user/args.c` |
 | `args_linux.c` | The same program for Linux |
 | `Makefile` | The xv6 Makefile with my two lines in `UPROGS`: `$U/_sleep\` and `$U/_args\` |
+| `full_explanations.md` | The slow version of this page: every line of the three programs, every command, and a walk through `user/sh.c` function by function, with a self-test |
 | `screenshots/` | The terminal screenshots shown on this page (`fig-1-1.png` is Figure 1.1, and so on) |
 
 ## How to run it
@@ -32,7 +33,7 @@ gcc -o args args_linux.c
 
 ## Words used on this page
 
-- **xv6**: a very small teaching operating system from MIT. Its whole source is about 11,000 lines of C.
+- **xv6**: a very small teaching operating system from MIT. Its kernel is about 6,600 lines of code, and with all its user programs it is about 12,000.
 - **QEMU**: a program that pretends to be a RISC-V computer, so xv6 has something to run on. `make qemu` builds xv6 and starts it.
 - **Two prompts.** `vboxuser@os:~/xv6-riscv$` is bash on Linux. A lonely `$` is the xv6 shell, running inside QEMU.
 - **`user/sh.c`**: the xv6 shell. It is one ordinary user program, 499 lines long.
