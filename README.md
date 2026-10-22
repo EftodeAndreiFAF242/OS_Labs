@@ -7,7 +7,7 @@ Each lab has its own folder. Every folder holds the Word report, the files the l
 
 | Folder | Lab | Topic | What is inside |
 |---|---|---|---|
-| [`lab1-2/`](lab1-2/) | 1 and 2 | The OS as a resource manager (Linux); meet xv6 | One report for both labs, `report.md`, `notes.md`, `sleep.c`, `pingpong.c` |
+| [`lab1-2/`](lab1-2/) | 1 and 2 | The OS as a resource manager (Linux); meet xv6 | One report for both labs, `report.md`, `notes.md`, `sleep.c`, `pingpong.c`, `Makefile` |
 | [`lab3/`](lab3/) | 3 | The command line: shell, pipes and text filters | Report, `oneliners.sh`, `report.sh`, screenshots |
 | [`lab4/`](lab4/) | 4 | The xv6 shell from the outside | Report, `sleep.c`, `args.c`, `args_linux.c`, `Makefile`, screenshots |
 | [`lab5/`](lab5/) | 5 | The file system with your own hands (Linux) | Report, `report.md`, screenshots |

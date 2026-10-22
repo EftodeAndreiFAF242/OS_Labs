@@ -11,6 +11,7 @@ Both labs are described in one report.
 | `notes.md` | Lab 2: the written answers |
 | `sleep.c` | Lab 2: my first xv6 program. It goes in `user/sleep.c` of xv6 |
 | `pingpong.c` | Lab 2, optional part: a parent and a child process pass one byte through two pipes |
+| `Makefile` | Lab 2: the xv6 Makefile with my changes: the lines `$U/_sleep\` and `$U/_pingpong\` in `UPROGS`, and `-march=rv64gc` in two places (without it the kernel did not boot on Ubuntu 26.04) |
 
 ## Lab 1 – The OS as a resource manager
 
