@@ -12,8 +12,10 @@ Each lab has its own folder. Every folder holds the Word report, the files the l
 | [`lab4/`](lab4/) | 4 | The xv6 shell from the outside | Report, `sleep.c`, `args.c`, `args_linux.c`, `Makefile`, screenshots |
 | [`lab5/`](lab5/) | 5 | The file system with your own hands (Linux) | Report, `report.md`, screenshots |
 | [`lab6/`](lab6/) | 6 | Inside the xv6 file system | Report, `mystat.c`, `find.c`, `Makefile`, `notes.md`, screenshots |
+| [`lab7/`](lab7/) | 7 | Three small programs: processes, redirection, a pipe (Linux) | Report, `run.c`, `zombie.c`, `redirect.c`, `pipeline.c`, `pipeline3.c`, `report.md`, screenshots |
+| [`lab8/`](lab8/) | 8 | The same calls, inside your own OS (xv6) | Report, `run.c`, `pingpong.c`, `primes.c`, `Makefile`, `notes.md`, screenshots |
 
-The labs follow two tracks. Track A looks at a real operating system, Linux, from the outside (Labs 1, 3 and 5). Track B builds on a small teaching operating system, xv6 (Labs 2, 4 and 6).
+The labs follow two tracks. Track A looks at a real operating system, Linux, from the outside (Labs 1, 3, 5 and 7). Track B builds on a small teaching operating system, xv6 (Labs 2, 4, 6 and 8).
 
 ## Where the work is done
 
