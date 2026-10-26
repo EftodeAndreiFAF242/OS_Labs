@@ -13,6 +13,7 @@ This page explains everything that was done in the lab, step by step: every comm
 | `pingpong.c` | The sheet's skeleton with the TODO lines written: one byte goes to the child and back through two pipes. In xv6: `user/pingpong.c` |
 | `primes.c` | Optional part, written by me: the primes from 2 to 35 with a chain of processes. In xv6: `user/primes.c` |
 | `Makefile` | The xv6 Makefile with my lines in `UPROGS`: `$U/_run\`, `$U/_pingpong\` and `$U/_primes\` from this lab, plus the ones of Labs 4 and 6 |
+| `sleep.c`, `args.c`, `mystat.c`, `find.c` | My programs from Labs 4 and 6, copied here unchanged, because this Makefile builds them too. With them the folder builds on its own |
 | `notes.md` | The answers the sheet asks to write "in notes.md" |
 | `full_explanations.md` | The slow version of this page: every line of the three programs, the kernel code behind `fork`, `exec`, `wait` and pipes in xv6, worked examples and a self-test |
 | `screenshots/` | The terminal screenshots shown on this page (`fig-1-1.png` is Figure 1.1, and so on) |
@@ -23,9 +24,8 @@ This page explains everything that was done in the lab, step by step: every comm
 
 ```bash
 # put the files into an xv6 tree at revision 06aad25
-cp run.c pingpong.c primes.c ~/xv6-riscv/user/
+cp *.c ~/xv6-riscv/user/   # run, pingpong, primes, and sleep, args, mystat, find from Labs 4 and 6
 cp Makefile ~/xv6-riscv/
-cp ../lab4/sleep.c ../lab4/args.c ../lab6/mystat.c ../lab6/find.c ~/xv6-riscv/user/   # the Makefile also builds these
 cd ~/xv6-riscv && make clean && make qemu
 # at the xv6 prompt:
 #   run          pingpong          primes

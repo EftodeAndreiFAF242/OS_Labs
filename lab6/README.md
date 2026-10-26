@@ -12,6 +12,7 @@ This page explains everything that was done in the lab, step by step: every comm
 | `mystat.c` | My `stat` program for xv6. In xv6 it lives in `user/mystat.c` |
 | `find.c` | My `find` program for xv6, with the stretch option `-n`. In xv6 it lives in `user/find.c` |
 | `Makefile` | The xv6 Makefile with my lines in `UPROGS`: `$U/_sleep\` and `$U/_args\` from Lab 4, and `$U/_mystat\` and `$U/_find\` from this lab |
+| `sleep.c`, `args.c` | My Lab 4 programs, copied here unchanged from [`../lab4/`](../lab4/), because this Makefile builds them too. With them the folder builds on its own |
 | `notes.md` | The answers the sheet asks to write "in notes.md" |
 | `full_explanations.md` | The slow version of this page: every line of both programs, the kernel code behind them, the disk layout, worked examples and a self-test |
 | `screenshots/` | The terminal screenshots shown on this page (`fig-1-1.png` is Figure 1.1, and so on) |
@@ -20,9 +21,8 @@ This page explains everything that was done in the lab, step by step: every comm
 
 ```bash
 # put the files into an xv6 tree at revision 06aad25
-cp mystat.c find.c ~/xv6-riscv/user/
+cp mystat.c find.c sleep.c args.c ~/xv6-riscv/user/   # sleep.c and args.c are from Lab 4; the Makefile builds them too
 cp Makefile ~/xv6-riscv/
-cp ../lab4/sleep.c ../lab4/args.c ~/xv6-riscv/user/   # the Makefile also builds these two
 cd ~/xv6-riscv && make clean && make qemu
 # at the xv6 prompt:
 #   mystat README . console

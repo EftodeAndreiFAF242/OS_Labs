@@ -807,7 +807,7 @@ git status -s
 
 `notes.md` was written on the Windows side and copied into the virtual machine with `wget` (10.0.2.2 is how the virtual machine reaches the Windows host). `git add` picks the four files, `git commit` saves them as one commit, `git log` shows it on top of the Lab 4 commit and the course revision `06aad25`, and `git show --stat` counts the lines: `mystat.c` 37, `find.c` 74, two Makefile lines, `notes.md`. `git status -s` printing nothing means nothing is left uncommitted.
 
-The `Makefile` in this folder lists `sleep` and `args` too. Their sources are in [`../lab4/`](../lab4/); copy them along (see "How to run it" in the README), or `make` will stop because it cannot find `user/sleep.c`.
+The `Makefile` in this folder lists `sleep` and `args` too, so their sources from Lab 4 (`sleep.c`, `args.c`) are copied into this folder as well. Copy all four `.c` files into `user/` (see "How to run it" in the README); without `sleep.c`, `make` would stop with "No rule to make target 'user/_sleep'".
 
 ## 8. xv6 and ext4 side by side
 
