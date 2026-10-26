@@ -8,6 +8,6 @@ main(int argc, char *argv[])
     fprintf(2, "usage: sleep <ticks>\n");
     exit(1);
   }
-  sleep(atoi(argv[1]));   // system call into the kernel
+  pause(atoi(argv[1]));   // system call into the kernel
   exit(0);
 }
